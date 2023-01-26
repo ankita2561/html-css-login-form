@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project4</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Interview Questionnaire</h1>
+        <br />
+        <hr />
+        <br />
+
+        <!-- <div class="personalinfo"> -->
+        <h3>Personal Information:</h3>
+        <br />
+        <!-- </div> -->
+
+        <div class="info">
+          <label for="Fullname" class="">Full Name</label><br /><br />
+          <input type="text" id="Fullname" class="fn" />
+          <input type="text" id="middlename" class="fn" />
+          <input type="text" id="lastname" class="fn" /><br />
+
+          <div class="box1">
+            <div class="a">
+              <label for="Fullname" class="box"
+                ><small>First Name</small></label
+              >
+            </div>
+            <div class="b">
+              <label for="middlename" class="box"
+                ><small>Middle Name</small></label
+              >
+            </div>
+            <div class="c">
+              <label for="lastname" class="box"><small>Last Name</small></label>
+            </div>
+            <br /><br />
+          </div>
+        </div>
+        <div class="age">
+          <label for="age" class="">Age:</label><br /><br />
+          <input
+            type="text"
+            id="age"
+            placeholder="ex:23"
+            required
+          /><br /><br />
+        </div>
+
+        <label for="sex" class="a1">Sex:</label><br /><br />
+
+        <div class="ate">
+          <input
+            type="radio"
+            id="sex"
+            name="sex1"
+            value="sex4"
+            class="t"
+          /><small>Male</small>
+          <input
+            type="radio"
+            id="age2"
+            name="sex1"
+            value="sex5"
+            class="t"
+          /><small>Female</small>
+          <input
+            type="radio"
+            id="age3"
+            name="sex1"
+            value="sex6"
+            class="t"
+          /><small>Transgender</small>
+        </div>
+        <br /><br />
+        <label for="add0" class="adddd"> Address</label><br /><br />
+        <div class="address">
+          <input type="text" id="add0" class="et" />
+          <label for="add0" class="box1"><small>Street Address</small></label
+          ><br />
+          <input type="text" id="add1" class="et" />
+          <label for="add1" class="box1"
+            ><small>Street Address Line2</small></label
+          ><br />
+          <div class="dis">
+            <input type="text" id="add2" class="et" />
+            <input type="text" id="add3" class="et" /><br />
+          </div>
+          <div class="this">
+            <label for="add2" class="box3"><small>City</small></label>
+          </div>
+          <div class="that">
+            <label for="add3" class="box4"><small>State/Province</small></label>
+          </div>
+          <br />
+          <input type="text" id="add4" class="et" />
+          <label for="add4" class="box5"><small>Postal/Zip Code</small></label
+          ><br />
+        </div>
+        <!-- <div class="phno"> -->
+        <br /><label for="phno" class="">Phone Number</label><br /><br />
+        <input type="text" id="phno" placeholder="(000) 000-0000" /><br />
+        <br /><label for="email" class=""><bold>E-mail</bold></label
+        ><br /><br />
+        <input
+          type="email"
+          id="email"
+          placeholder="ex: myname@example.com"
+        /><br />
+        <small>example@example.com</small><br /><br />
+        <!-- </div> -->
+        <h3>Questions and Details:</h3>
+        <label for="details" class="se">Describe yourself in few words.</label
+        ><br /><br />
+        <textarea id="details" cols="30" rows="10"></textarea><br /><br />
+        <label for="edetails" class=""
+          >Describe yourself educational quqlification.</label
+        ><br /><br />
+        <textarea id="edetails" cols="30" rows="10"></textarea><br /><br />
+        <input type="submit" value="Submit" class="block" />
+      </div>
+    </div>
+  </body>
+</html>
